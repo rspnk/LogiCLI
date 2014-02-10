@@ -3,12 +3,19 @@ LogiCLI
 
 Windows command line utility to control the LED backlight of various Logitech keyboards and mice.
 
+Logitech Gaming Led SDK
+-----------------------
+Since the installation of the Logitech Gaming Software does not provice the LEDSDK, download it from here:
+*	http://udn.epicgames.com/Three/rsrc/Three/LogitechLEDSDK/LogitechLEDSDK_1.01.005.1.zip
+If you know the proper source from Logitech, please let me know.
+
 Usage
 -----
 Download and extract the Logitech LEDSDK and put the LogitechLed.dll located in Lib/x64 next to the binary, otherwise you will be shown an error message telling you to do so.
 
 If your device supports only one color (white, like G710+):
 *	LogiCLI.exe <light>; e.g. LogiCLI.exe 0: turns backlight off
+
 If your device supports multiple colors (like G510):
 *	LogiCLI.exe <red> <green> <blue>; e.g. LogiCLI.exe 0 20 0: set backlight to dim green
 
