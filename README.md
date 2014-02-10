@@ -7,6 +7,7 @@ Logitech Gaming Led SDK
 -----------------------
 Since the installation of the Logitech Gaming Software does not provice the LEDSDK, download it from here:
 *	http://udn.epicgames.com/Three/rsrc/Three/LogitechLEDSDK/LogitechLEDSDK_1.01.005.1.zip
+
 If you know the proper source from Logitech, please let me know.
 
 Usage
