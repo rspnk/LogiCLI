@@ -15,10 +15,10 @@ Usage
 Download and extract the Logitech LEDSDK and put the LogitechLed.dll located in Lib/x64 next to the binary, otherwise you will be shown an error message telling you to do so.
 
 If your device supports only one color (white, like G710+):
-*	LogiCLI.exe <light>; e.g. LogiCLI.exe 0: turns backlight off
+*	LogiCLI.exe \<light\>; e.g. LogiCLI.exe 0: turns backlight off
 
 If your device supports multiple colors (like G510):
-*	LogiCLI.exe <red> <green> <blue>; e.g. LogiCLI.exe 0 20 0: set backlight to dim green
+*	LogiCLI.exe \<red\> \<green\> \<blue\>; e.g. LogiCLI.exe 0 20 0: set backlight to dim green
 
 All numbers have to be between 0 and 100.
 If you enter a wrong number nothing will happen.
