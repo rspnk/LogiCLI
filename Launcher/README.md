@@ -5,5 +5,5 @@ Prevents a windows command prompt window from popping up after launching LogiCLI
 Should work with every command line utility.
 
 start it with:
-*	BatchLauncher.vbs LogiCLI.exe <light>
+*	BatchLauncher.vbs LogiCLI.exe \<light\>
 
