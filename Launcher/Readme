@@ -1,3 +1,0 @@
-start with:
-	BatchLauncher.vbs LogiCLI.exe <light>
-to prevent a windows command prompt windows from popping up after launching LogiCLI.exe
